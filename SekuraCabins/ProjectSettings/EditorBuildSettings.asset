@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Menu.unity
     guid: 1468e48b897fc3547bafea0659b2a091
   - enabled: 1
-    path: Assets/Scenes/Test scene.unity
+    path: Assets/Scenes/Test scene for menu/Test scene.unity
     guid: 5375d9d3c8e269c4e80442b254e1200a
   - enabled: 1
     path: Assets/Scenes/TutorialMenu.unity
@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test Scenes/Caspar.unity
     guid: 8bfe6ca2031819f45b2a38fce2043248
+  - enabled: 1
+    path: Assets/Scenes/InsertNameTutorial.unity
+    guid: 497de13e39182094889e7269e8813861
   m_configObjects: {}
