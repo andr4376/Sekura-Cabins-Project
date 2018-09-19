@@ -8,13 +8,13 @@ public class mainMenu : MonoBehaviour {
     // load the tutorial scene
 	public void Tutorial()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     // load the training scene
     public void Training()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
     }
 
     public void ScoreBord()
