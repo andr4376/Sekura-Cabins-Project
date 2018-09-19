@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test scene.unity
     guid: 5375d9d3c8e269c4e80442b254e1200a
+  - enabled: 1
+    path: Assets/Scenes/TutorialMenu.unity
+    guid: b68df87308a27634f82acd015f08074f
+  - enabled: 1
+    path: Assets/Scenes/Test Scenes/Caspar.unity
+    guid: 8bfe6ca2031819f45b2a38fce2043248
   m_configObjects: {}
