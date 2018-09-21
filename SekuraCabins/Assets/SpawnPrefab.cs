@@ -6,19 +6,21 @@ public class SpawnPrefab : MonoBehaviour {
 
 
     [SerializeField]
-    private GameObject prefab;
+    [Tooltip("The Prefab to spawn")]
+    private GameObject prefab; 
+
     [SerializeField]
-    private Transform position;
+    [Tooltip("The position you want the prefab to spawn (Use SpawnPoint from Hierarchy")]
+    private Transform position; 
 
     // Use this for initialization
 
 
     public void SpawnObject()
     {
-        GameObject go = GameObject.Instantiate(prefab, position);
+        GameObject go = GameObject.Instantiate(prefab, position); 
 
-        go.transform.localScale = go.transform.localScale * 100;
-
-        Debug.Log("REEEEEEEEEEEEEEEE");
+        go.transform.localScale = go.transform.localScale * 100; //Scales game object, so it fits with canvas size
+        
     }
 }
